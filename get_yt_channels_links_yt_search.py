@@ -38,7 +38,7 @@ while(True):
         break
     old_scroll_height = scroll_height
 
-videos = driver.find_elements(By.ID, "channel-thumbnail")
+videos = driver.find_elements(By.CLASS_NAME, "yt-simple-endpoint.style-scope.yt-formatted-string")
 
 channel_names = []
 channel_dictionary = "var channelDict =  {"
